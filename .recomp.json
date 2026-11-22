@@ -1,0 +1,22 @@
+{
+  "game": "Radikal Bikers",
+  "wikidata": "Q7280528",
+  "original": [
+    {
+      "region": "World",
+      "revision": "Version 2.02 (MAME: radikalb)"
+    }
+  ],
+  "system": "Arcade",
+  "type": "recomp",
+  "status": "released",
+  "targets": ["Wii"],
+  "toolchain": "WiiRevs",
+  "project": "Radikal Bikers for Wii",
+  "approach": "Gaelco 3D MC68EC020, TMS320C31 geometry DSP and ADSP-2115 sound programs statically translated to C; the polygons drawn by GX on the Wii",
+  "notes": "Runs natively on a real Wii, launched with the Homebrew Channel. Sideways Wii Remote with tilt steering, Classic Controller and GameCube controller; rumble; optional widescreen; 480p.",
+  "tags": ["gaelco", "racing", "wii"],
+  "maintainers": [{ "name": "WiiRevs", "link": "https://wiirevs.com" }],
+  "links": [{ "label": "WiiRevs", "url": "https://wiirevs.com" }],
+  "launchers": [{ "path": "radikalb.zip", "in": "release", "format": "zip" }]
+}
